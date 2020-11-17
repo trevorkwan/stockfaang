@@ -1,16 +1,20 @@
 Package: stockfaang
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Data to show FAANG stock prices 
+Version: 0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Trevor",
+           family = "Kwan",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "tktrevorkwan@gmail.com")
+Description: This package contains FAANG stock price data obtained from yahoo finance.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat
+Imports: 
+    quantmod
