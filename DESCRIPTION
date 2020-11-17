@@ -18,3 +18,5 @@ Suggests:
     testthat
 Imports: 
     quantmod
+URL: https://github.com/trevorkwan/stockfaang
+BugReports: https://github.com/trevorkwan/stockfaang/issues
