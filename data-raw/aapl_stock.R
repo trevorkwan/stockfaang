@@ -10,7 +10,7 @@ if (!require("magrittr")) {
 
 aapl_stock <- getSymbols("AAPL", src = "yahoo", auto.assign = FALSE)
 
-aapl_stock <- as.data.frame(aapl)
+aapl_stock <- as.data.frame(aapl_stock)
 
 save(aapl_stock, file = "data/aapl_stock.rda", compress='bzip2')
 saveRDS(aapl_stock, "tests/testthat/aapl_stock.rds")
