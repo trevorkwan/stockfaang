@@ -15,6 +15,13 @@ You can install the development version from [Github](https://github.com/trevork
 devtools::install_github("trevorkwan/stockfaang")
 ```
 
+## Vignette
+You may read the vignette by using:
+```r
+library(stockfaang)
+browseVignettes("stockfaang")
+```
+
 ## Example
   
 This is a basic example which shows you how to solve a common problem:
