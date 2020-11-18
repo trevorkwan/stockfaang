@@ -12,7 +12,6 @@ The goal of `stockfaang` is to provide an easy way to access FAANG stock price d
 You can install the development version from [Github](https://github.com/trevorkwan/stockfaang) with:
 
 ``` r
-install.packages("stockfaang")
 devtools::install_github("trevorkwan/stockfaang")
 ```
 
