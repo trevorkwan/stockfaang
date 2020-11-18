@@ -43,19 +43,52 @@ aapl_stock %>%
 Code functions used to implement the package component include:
 ```r
 library(devtools)
+
+# initializes a new package in a directory on your computer
 create_package()
+
+# make that directory into a git repository
 use_git()
-use_data()
+
+# creates `aapl_stock.R` in the R folder for documentation
+use_r()
+# manually use roxygen format to document dataset
+
+# manually create `aapl_stock.R` in the `data-raw` folder, which contains the code to extract the data
+
+# manually edit DESCRIPTION file
+
+# check for errors
 check()
+
+# create LICENSE.md
 use_mit_license()
+
+# convert roxygen format from `R/aapl_stock.R` into `man/aapl_stock.Rd` with document()
 document()
+
+# installs `stockfaang` into your library
 install()
+
+# declare intent to write unit tests and use the testthat package
 use_testthat()
+
+# create a test file for `aapl_stock`
 use_test()
+
+# tests `aapl_stock`
 test()
+
+# imports function `getSymbols` from package `quantmod`
 use_package()
+
+# set up the github repository
 use_github()
+
+# create README.md
 use_readme_md()
+
+# create CODE_OF_CONDUCT.md
 use_code_of_conduct()
 ```
 
