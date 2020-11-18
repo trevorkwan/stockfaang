@@ -2,7 +2,7 @@
 # stockfaang
 
 <!-- badges: start -->
-(https://img.shields.io/github/followers/trevorkwan?style=social)
+![Social Badge](https://img.shields.io/github/followers/trevorkwan?style=social)
 <!-- badges: end -->
 
 The goal of `stockfaang` is to provide an easy way to access FAANG stock price data.
