@@ -43,7 +43,7 @@ aapl_stock %>%
 Code functions used to implement the package component include:
 ```r
 library(devtools)
-create_package("path to `stockfaang`")
+create_package()
 use_git()
 use_data()
 check()
