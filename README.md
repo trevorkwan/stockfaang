@@ -37,3 +37,25 @@ aapl_stock %>%
 
 ## Website
 [Here](https://trevorkwan.github.io/stockfaang/) is the link to the official `stockfaang` website.
+
+## Development Explanation
+
+Code functions used to implement the package component include:
+```r
+library(devtools)
+create_package("path to `stockfaang`")
+use_git()
+use_data()
+check()
+use_mit_license()
+document()
+install()
+use_testthat()
+use_test()
+use_package()
+use_github()
+use_readme_md()
+use_code_of_conduct()
+```
+
+This repository structure was based off of the [datateachr](https://github.com/UBC-MDS/datateachr) repository.
