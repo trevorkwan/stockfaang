@@ -4,14 +4,15 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of stockfaang is to ...
+The goal of `stockfaang` is to provide an easy way to access FAANG stock price data.
 
 ## Installation
 
-You can install the released version of stockfaang from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version from github with:
 
 ``` r
 install.packages("stockfaang")
+devtools::install_github("trevorkwan/stockfaang")
 ```
 
 ## Example
